@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aisons</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <img src="./Images/Logo.jpg" width="120" height="125" alt="" />
+        <div class="nav-items" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blog.html">PRODUCTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-content">
+        <h1><em>A</em>isons</h1>
+        <p>
+          Trust in our commitment to excellence as we provide you with surgical instruments that are known for their durability and reliability.
+        </p>
+        <a href="" class="hero-btn">Contact us to Know more</a>
+      </div>
+    </section>
+
+    <section class="course">
+      <h1>Products we Offer</h1>
+      <p>Our Surgical and Dental Instruments are designed to meet the highest standards of quality,<br> providing you with reliable tools that enable you to deliver outstanding patient care</p>
+
+      <div class="courses">
+        <div class="Programs">
+          <h3>Surgical</h3>
+          <p>
+            <a href="./blog.html"><img src="./Images/banner-1.png" alt="surgical catalog" height="320px"></a>
+          </p>
+        </div>
+        <div class="Programs">
+          <h3>Dental</h3>
+          <p>
+            <a href="./blog.html"><img src="./Images/banner-2.png" alt="surgical catalog" height="320px"></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Our Products</h1>
+      <p>
+        Our products are crafted with precision, durability, and reliability<br> in mind, ensuring exceptional performance in every procedure.
+      </p>
+      <div class="container">
+        <div class="item">
+          <img src="./Images/hghfhn-removebg-preview-1.png" alt="product 1" />
+          <!-- <div class="layer"><h3></h3></div> -->
+        </div>
+        <div class="item">
+          <img src="./Images/SD-removebg-preview-1.png" alt="product 2" />
+          <!-- <div class="layer"><h3></h3></div> -->
+        </div>
+        <div class="item">
+          <img src="./Images/3182.jpg" alt="product 3" />
+          <!-- <div class="layer"><h3></h3></div> -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section class="cta">
+      <h1>        Upgrade your surgical precision with our premium surgical instruments <br> Order now and experience the difference!
+      </h1>
+      <a href="./contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+      <div class="foot-head">
+
+      <div class="footer-subhead">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Products</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="footer-subhead">
+      <h3>catalog</h3>
+      <ul>
+        <li><a href="./blog.html">Surgical catalog</a></li>
+        <li><a href="./blog.html">Dental catalog</a></li>
+      </ul>
+    </div>
+    <div class="footer-subhead">
+      <h3>Contact</h3>
+      <ul>
+        <li> <i class="fa-sharp fa-solid fa-location-dot"></i> 82 Hatherley road 
+          Reading<br> England 
+          RG1 5QE</li>
+        <li><i class="fa-solid fa-envelope"></i> info@aisons.co.uk</li>
+        <li><i class="fa-solid fa-phone"></i> 0047808584900</li>
+      </ul>
+    </div>
+  </div>
+  <div class="rights">
+  <hr>
+    <p>Copyright &copy 2023 All right reserved</p>
+    <p>Made with <i class="fa-regular fa-heart"></i>  by AR</p>
+  </div>
+    </section>
+
+    <!--  ( JavaScript for toggle MENU ) -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisons</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    />
+</head>
+<body>
+    <section class="subheader">
+        <div class="nav">
+            <img src="./Images/Logo.jpg" width="120" height="125" alt="">
+            <div class="navLinks" id="nav-links">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <h1>About us</h1>
+    </section>
+
+    <section class="about">
+        <div class="txt">
+            <h1>Statement !!</h1>
+            <p class="bg-screen">Welcome to <special style="font-size: 32px; color:rgb(0, 102, 255) ;">Aisons</special>, where customer satisfaction is our top priority!
+
+              we are a team of dedicated professionals who are passionate about providing the highest quality surgical products and services to our valued customers. With <em>2</em> years of experience in the industry, we have built a reputation for excellence and are proud to be a trusted source for surgical supplies and solutions.
+             
+             Our mission is simple: to exceed customer expectations by delivering exceptional service, superior products, and reliable support. We understand that every surgical procedure is unique, and we are committed to providing personalized solutions that meet the specific needs of our customers. Whether you are a surgeon, a healthcare professional, or a patient, we strive to be your go-to resource for all your surgical needs.
+             
+             At <special>Aisons</special>, we believe in delivering efficiency without compromising on quality. We work closely with leading manufacturers to ensure that our products are of the highest standard, and we constantly update our inventory to offer the latest advancements in surgical technology. Our user-friendly website makes it easy for you to browse and order products online, saving you time and effort.
+             
+             In addition to our extensive product range, we take pride in our exceptional customer service. Our knowledgeable and friendly team is always available to assist you with any questions or concerns, and we are committed to prompt and reliable shipping to ensure that your orders are delivered on time.
+             
+             We are not just a surgical supply provider, but a partner in your surgical journey. We value your feedback and continuously strive to improve our services to meet your evolving needs. Your satisfaction is our success, and we are dedicated to building lasting relationships with our customers based on trust, integrity, and reliability.
+             
+             Thank you for choosing <special>Aisons</special>. We look forward to serving you and exceeding your expectations in every way possible.</p>
+             <p class="small-scr">
+              <em><special style="font-size: 35px; color: blue;">A</special>isons</em> is a dedicated team of professionals with a mission to exceed customer expectations in the surgical industry.
+              With 2 years of experience, we are a trusted source for high-quality surgical products and solutions.
+              We prioritize customer satisfaction, offering personalized solutions and exceptional service.
+              Our inventory is constantly updated with the latest advancements in surgical technology from leading manufacturers.
+              We are committed to prompt and reliable shipping, and value lasting relationships with our customers based on trust, integrity, and reliability.
+             </p>
+        </div>
+    </section>
+
+    <section class="footer">
+      <div class="foot-head">
+
+      <div class="footer-subhead">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Products</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="footer-subhead">
+      <h3>catalog</h3>
+      <ul>
+        <li><a href="./blog.html">Surgical catalog</a></li>
+        <li><a href="./blog.html">Dental catalog</a></li>
+      </ul>
+    </div>
+    <div class="footer-subhead">
+      <h3>Contact</h3>
+      <ul>
+        <li> <i class="fa-sharp fa-solid fa-location-dot"></i> 82 Hatherley road 
+          Reading<br> England 
+          RG1 5QE</li>
+        <li><i class="fa-solid fa-envelope"></i> info@aisons.co.uk</li>
+        <li><i class="fa-solid fa-phone"></i> 0047808584900</li>
+      </ul>
+    </div>
+  </div>
+  <div class="rights">
+  <hr>
+    <p>Copyright &copy 2023 All right reserved</p>
+    <p>Made with <i class="fa-regular fa-heart"></i>  by AR</p>
+  </div>
+    </section>
+
+
+    <!-- JavaScript -->
+
+    <script >
+      var navlinks=document.getElementById("nav-links");
+
+      function hideMenu()
+      {
+        navlinks.style.right="-200px";
+      }
+
+      function showMenu()
+      {
+        navlinks.style.right="0px";
+      }
+
+    </script>
+</body>
+</html>
